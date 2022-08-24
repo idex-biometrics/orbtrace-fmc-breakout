@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jl388\Documents\KiCAD\Projects\orbtrace-fmc-breakout\orbtrace-fmc-breakout.kicad_sch</source>
+    <date>21/07/2022 15:02:32</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>FMC LPC Template</title>
+        <company>IDEX Biometrics Ltd</company>
+        <rev/>
+        <date/>
+        <source>orbtrace-fmc-breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>ORBTrace</value>
+      <footprint>ORBTrace:ORBTrace</footprint>
+      <datasheet>https://orbcode.org/orbtrace-mini/</datasheet>
+      <libsource lib="ORBTrace" part="ORBTrace" description="ORBTrace mini "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56656b5e-d4fc-4d8a-8a3a-9a53bb2bc12e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb71c796-36f4-461e-8f94-ece9a30593be</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a658fea5-5665-4704-bd93-ecc085b875fa</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a77ec561-5f95-43b0-bdc1-2f97ef58fc0d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>effe415f-3d7b-40ae-8498-4036e1215b02</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feada455-c1d0-4650-801a-a4a2ca43a04e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f421461-63c2-4321-a0f7-e447ef021c9f</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07690fd8-e98b-41f5-9350-a9ff04051506</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94e09503-0022-4769-9b8c-8e46bd7aef2e</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6b127fc-a3c4-4f4f-a077-26476d74cf1d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0961a98-0002-404e-b4b3-1cb54e81589f</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Samtec_ASP-134604-01</value>
+      <footprint>Connector_Samtec:Samtec_FMC_ASP-134604-01_4x40_Vertical_Renamed</footprint>
+      <datasheet>http://suddendocs.samtec.com/prints/asp-134602-01-mkt.pdf</datasheet>
+      <libsource lib="Connector" part="Samtec_ASP-134604-01" description="Connector array, 4x40, 1.27mm pitch, male pins, gold finish, VITA 57.1 FMC, SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fe7c8d8-a7cb-426a-bbeb-491c964e2c78 a0e7041d-fe38-4675-9aca-2c189cbca395 4b710a96-29fd-46c6-aba1-473431cb8cfc 4455e143-3ef0-49b3-a1a0-6818998b0f98</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connector_Testpoint:Shorting_Link_5.08mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c9d30c0-b066-4c80-b38e-a2cb6b17b26a</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aecaa7a3-127a-4bf5-866c-fc030047ca62</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67e85687-912c-4d41-aeaf-4d9f3549fa5e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48c1b08f-aa88-4f28-b9a2-f2db71558b7c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>294ce6b5-1b62-47da-95e2-6adce60dbb89</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f27e2fd5-3158-49dc-9f25-cbb3f44f3f0d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05178397-6473-4a0a-b29f-068271eaa397</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c59d57f-3523-4590-b9a2-2d9ecbe77886</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ec39bad-0207-4909-bc4e-eed5e55c9df7</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f11c1e6-e583-42c3-a928-4545fcd3d29d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3947c2f6-3745-4262-872f-fce60ddf4a77</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad04afa8-2bd3-4485-9624-c558ed409ba6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b154294a-cda3-43ee-b9e5-bb07fd52dc87</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91fdf38c-e346-4609-96ee-e8e2cd0940df</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84c21a4c-c0a0-4a61-9b90-402accceabfb</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44b0808e-8bc0-4ae3-9478-47ffabfc1bb6</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>673027ae-ae85-402e-a742-3aacc1529021</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_DIP_x04</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx04_Slide_Omron_A6S-410x_W8.9mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33ecea29-f912-4bb3-a2fb-dd4c7a11c624</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>Connector_Testpoint:TestPoint_Harwin_S2761-46R</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11898469-008b-42ab-8c13-803abbc82648</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Connector_Testpoint:TestPoint_Harwin_S2761-46R</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa4c21c5-183d-4cd1-9f2c-ec1903bba8f7</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Connector_Testpoint:TestPoint_Harwin_S2761-46R</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d38ca678-715b-4172-812b-3fb3b5c17a6a</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>Connector_Testpoint:TestPoint_Harwin_S2761-46R</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="orbtrace-fmc-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa8e8954-a309-4c70-873a-0324b8c1ee68</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Samtec_ASP-134604-01">
+      <description>Connector array, 4x40, 1.27mm pitch, male pins, gold finish, VITA 57.1 FMC, SMD</description>
+      <docs>http://suddendocs.samtec.com/prints/asp-134602-01-mkt.pdf</docs>
+      <footprints>
+        <fp>*FMC*ASP*134602?01*10x40*P1.27mm*</fp>
+        <fp>*FMC*ASP*134486?01*10x40*P1.27mm*</fp>
+        <fp>*FMC*ASP*134604?01*4*40*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Samtec_ASP-134604-01</field>
+        <field name="Datasheet">http://suddendocs.samtec.com/prints/asp-134602-01-mkt.pdf</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="Pin_1" type="passive"/>
+        <pin num="A2" name="Pin_2" type="passive"/>
+        <pin num="A3" name="Pin_3" type="passive"/>
+        <pin num="A4" name="Pin_4" type="passive"/>
+        <pin num="A5" name="Pin_5" type="passive"/>
+        <pin num="A6" name="Pin_6" type="passive"/>
+        <pin num="A7" name="Pin_7" type="passive"/>
+        <pin num="A8" name="Pin_8" type="passive"/>
+        <pin num="A9" name="Pin_9" type="passive"/>
+        <pin num="A10" name="Pin_10" type="passive"/>
+        <pin num="A11" name="Pin_11" type="passive"/>
+        <pin num="A12" name="Pin_12" type="passive"/>
+        <pin num="A13" name="Pin_13" type="passive"/>
+        <pin num="A14" name="Pin_14" type="passive"/>
+        <pin num="A15" name="Pin_15" type="passive"/>
+        <pin num="A16" name="Pin_16" type="passive"/>
+        <pin num="A17" name="Pin_17" type="passive"/>
+        <pin num="A18" name="Pin_18" type="passive"/>
+        <pin num="A19" name="Pin_19" type="passive"/>
+        <pin num="A20" name="Pin_20" type="passive"/>
+        <pin num="A21" name="Pin_21" type="passive"/>
+        <pin num="A22" name="Pin_22" type="passive"/>
+        <pin num="A23" name="Pin_23" type="passive"/>
+        <pin num="A24" name="Pin_24" type="passive"/>
+        <pin num="A25" name="Pin_25" type="passive"/>
+        <pin num="A26" name="Pin_26" type="passive"/>
+        <pin num="A27" name="Pin_27" type="passive"/>
+        <pin num="A28" name="Pin_28" type="passive"/>
+        <pin num="A29" name="Pin_29" type="passive"/>
+        <pin num="A30" name="Pin_30" type="passive"/>
+        <pin num="A31" name="Pin_31" type="passive"/>
+        <pin num="A32" name="Pin_32" type="passive"/>
+        <pin num="A33" name="Pin_33" type="passive"/>
+        <pin num="A34" name="Pin_34" type="passive"/>
+        <pin num="A35" name="Pin_35" type="passive"/>
+        <pin num="A36" name="Pin_36" type="passive"/>
+        <pin num="A37" name="Pin_37" type="passive"/>
+        <pin num="A38" name="Pin_38" type="passive"/>
+        <pin num="A39" name="Pin_39" type="passive"/>
+        <pin num="A40" name="Pin_40" type="passive"/>
+        <pin num="B1" name="Pin_1" type="passive"/>
+        <pin num="B2" name="Pin_2" type="passive"/>
+        <pin num="B3" name="Pin_3" type="passive"/>
+        <pin num="B4" name="Pin_4" type="passive"/>
+        <pin num="B5" name="Pin_5" type="passive"/>
+        <pin num="B6" name="Pin_6" type="passive"/>
+        <pin num="B7" name="Pin_7" type="passive"/>
+        <pin num="B8" name="Pin_8" type="passive"/>
+        <pin num="B9" name="Pin_9" type="passive"/>
+        <pin num="B10" name="Pin_10" type="passive"/>
+        <pin num="B11" name="Pin_11" type="passive"/>
+        <pin num="B12" name="Pin_12" type="passive"/>
+        <pin num="B13" name="Pin_13" type="passive"/>
+        <pin num="B14" name="Pin_14" type="passive"/>
+        <pin num="B15" name="Pin_15" type="passive"/>
+        <pin num="B16" name="Pin_16" type="passive"/>
+        <pin num="B17" name="Pin_17" type="passive"/>
+        <pin num="B18" name="Pin_18" type="passive"/>
+        <pin num="B19" name="Pin_19" type="passive"/>
+        <pin num="B20" name="Pin_20" type="passive"/>
+        <pin num="B21" name="Pin_21" type="passive"/>
+        <pin num="B22" name="Pin_22" type="passive"/>
+        <pin num="B23" name="Pin_23" type="passive"/>
+        <pin num="B24" name="Pin_24" type="passive"/>
+        <pin num="B25" name="Pin_25" type="passive"/>
+        <pin num="B26" name="Pin_26" type="passive"/>
+        <pin num="B27" name="Pin_27" type="passive"/>
+        <pin num="B28" name="Pin_28" type="passive"/>
+        <pin num="B29" name="Pin_29" type="passive"/>
+        <pin num="B30" name="Pin_30" type="passive"/>
+        <pin num="B31" name="Pin_31" type="passive"/>
+        <pin num="B32" name="Pin_32" type="passive"/>
+        <pin num="B33" name="Pin_33" type="passive"/>
+        <pin num="B34" name="Pin_34" type="passive"/>
+        <pin num="B35" name="Pin_35" type="passive"/>
+        <pin num="B36" name="Pin_36" type="passive"/>
+        <pin num="B37" name="Pin_37" type="passive"/>
+        <pin num="B38" name="Pin_38" type="passive"/>
+        <pin num="B39" name="Pin_39" type="passive"/>
+        <pin num="B40" name="Pin_40" type="passive"/>
+        <pin num="C1" name="Pin_1" type="passive"/>
+        <pin num="C2" name="Pin_2" type="passive"/>
+        <pin num="C3" name="Pin_3" type="passive"/>
+        <pin num="C4" name="Pin_4" type="passive"/>
+        <pin num="C5" name="Pin_5" type="passive"/>
+        <pin num="C6" name="Pin_6" type="passive"/>
+        <pin num="C7" name="Pin_7" type="passive"/>
+        <pin num="C8" name="Pin_8" type="passive"/>
+        <pin num="C9" name="Pin_9" type="passive"/>
+        <pin num="C10" name="Pin_10" type="passive"/>
+        <pin num="C11" name="Pin_11" type="passive"/>
+        <pin num="C12" name="Pin_12" type="passive"/>
+        <pin num="C13" name="Pin_13" type="passive"/>
+        <pin num="C14" name="Pin_14" type="passive"/>
+        <pin num="C15" name="Pin_15" type="passive"/>
+        <pin num="C16" name="Pin_16" type="passive"/>
+        <pin num="C17" name="Pin_17" type="passive"/>
+        <pin num="C18" name="Pin_18" type="passive"/>
+        <pin num="C19" name="Pin_19" type="passive"/>
+        <pin num="C20" name="Pin_20" type="passive"/>
+        <pin num="C21" name="Pin_21" type="passive"/>
+        <pin num="C22" name="Pin_22" type="passive"/>
+        <pin num="C23" name="Pin_23" type="passive"/>
+        <pin num="C24" name="Pin_24" type="passive"/>
+        <pin num="C25" name="Pin_25" type="passive"/>
+        <pin num="C26" name="Pin_26" type="passive"/>
+        <pin num="C27" name="Pin_27" type="passive"/>
+        <pin num="C28" name="Pin_28" type="passive"/>
+        <pin num="C29" name="Pin_29" type="passive"/>
+        <pin num="C30" name="Pin_30" type="passive"/>
+        <pin num="C31" name="Pin_31" type="passive"/>
+        <pin num="C32" name="Pin_32" type="passive"/>
+        <pin num="C33" name="Pin_33" type="passive"/>
+        <pin num="C34" name="Pin_34" type="passive"/>
+        <pin num="C35" name="Pin_35" type="passive"/>
+        <pin num="C36" name="Pin_36" type="passive"/>
+        <pin num="C37" name="Pin_37" type="passive"/>
+        <pin num="C38" name="Pin_38" type="passive"/>
+        <pin num="C39" name="Pin_39" type="passive"/>
+        <pin num="C40" name="Pin_40" type="passive"/>
+        <pin num="D1" name="Pin_1" type="passive"/>
+        <pin num="D2" name="Pin_2" type="passive"/>
+        <pin num="D3" name="Pin_3" type="passive"/>
+        <pin num="D4" name="Pin_4" type="passive"/>
+        <pin num="D5" name="Pin_5" type="passive"/>
+        <pin num="D6" name="Pin_6" type="passive"/>
+        <pin num="D7" name="Pin_7" type="passive"/>
+        <pin num="D8" name="Pin_8" type="passive"/>
+        <pin num="D9" name="Pin_9" type="passive"/>
+        <pin num="D10" name="Pin_10" type="passive"/>
+        <pin num="D11" name="Pin_11" type="passive"/>
+        <pin num="D12" name="Pin_12" type="passive"/>
+        <pin num="D13" name="Pin_13" type="passive"/>
+        <pin num="D14" name="Pin_14" type="passive"/>
+        <pin num="D15" name="Pin_15" type="passive"/>
+        <pin num="D16" name="Pin_16" type="passive"/>
+        <pin num="D17" name="Pin_17" type="passive"/>
+        <pin num="D18" name="Pin_18" type="passive"/>
+        <pin num="D19" name="Pin_19" type="passive"/>
+        <pin num="D20" name="Pin_20" type="passive"/>
+        <pin num="D21" name="Pin_21" type="passive"/>
+        <pin num="D22" name="Pin_22" type="passive"/>
+        <pin num="D23" name="Pin_23" type="passive"/>
+        <pin num="D24" name="Pin_24" type="passive"/>
+        <pin num="D25" name="Pin_25" type="passive"/>
+        <pin num="D26" name="Pin_26" type="passive"/>
+        <pin num="D27" name="Pin_27" type="passive"/>
+        <pin num="D28" name="Pin_28" type="passive"/>
+        <pin num="D29" name="Pin_29" type="passive"/>
+        <pin num="D30" name="Pin_30" type="passive"/>
+        <pin num="D31" name="Pin_31" type="passive"/>
+        <pin num="D32" name="Pin_32" type="passive"/>
+        <pin num="D33" name="Pin_33" type="passive"/>
+        <pin num="D34" name="Pin_34" type="passive"/>
+        <pin num="D35" name="Pin_35" type="passive"/>
+        <pin num="D36" name="Pin_36" type="passive"/>
+        <pin num="D37" name="Pin_37" type="passive"/>
+        <pin num="D38" name="Pin_38" type="passive"/>
+        <pin num="D39" name="Pin_39" type="passive"/>
+        <pin num="D40" name="Pin_40" type="passive"/>
+        <pin num="E1" name="Pin_1" type="passive"/>
+        <pin num="E2" name="Pin_2" type="passive"/>
+        <pin num="E3" name="Pin_3" type="passive"/>
+        <pin num="E4" name="Pin_4" type="passive"/>
+        <pin num="E5" name="Pin_5" type="passive"/>
+        <pin num="E6" name="Pin_6" type="passive"/>
+        <pin num="E7" name="Pin_7" type="passive"/>
+        <pin num="E8" name="Pin_8" type="passive"/>
+        <pin num="E9" name="Pin_9" type="passive"/>
+        <pin num="E10" name="Pin_10" type="passive"/>
+        <pin num="E11" name="Pin_11" type="passive"/>
+        <pin num="E12" name="Pin_12" type="passive"/>
+        <pin num="E13" name="Pin_13" type="passive"/>
+        <pin num="E14" name="Pin_14" type="passive"/>
+        <pin num="E15" name="Pin_15" type="passive"/>
+        <pin num="E16" name="Pin_16" type="passive"/>
+        <pin num="E17" name="Pin_17" type="passive"/>
+        <pin num="E18" name="Pin_18" type="passive"/>
+        <pin num="E19" name="Pin_19" type="passive"/>
+        <pin num="E20" name="Pin_20" type="passive"/>
+        <pin num="E21" name="Pin_21" type="passive"/>
+        <pin num="E22" name="Pin_22" type="passive"/>
+        <pin num="E23" name="Pin_23" type="passive"/>
+        <pin num="E24" name="Pin_24" type="passive"/>
+        <pin num="E25" name="Pin_25" type="passive"/>
+        <pin num="E26" name="Pin_26" type="passive"/>
+        <pin num="E27" name="Pin_27" type="passive"/>
+        <pin num="E28" name="Pin_28" type="passive"/>
+        <pin num="E29" name="Pin_29" type="passive"/>
+        <pin num="E30" name="Pin_30" type="passive"/>
+        <pin num="E31" name="Pin_31" type="passive"/>
+        <pin num="E32" name="Pin_32" type="passive"/>
+        <pin num="E33" name="Pin_33" type="passive"/>
+        <pin num="E34" name="Pin_34" type="passive"/>
+        <pin num="E35" name="Pin_35" type="passive"/>
+        <pin num="E36" name="Pin_36" type="passive"/>
+        <pin num="E37" name="Pin_37" type="passive"/>
+        <pin num="E38" name="Pin_38" type="passive"/>
+        <pin num="E39" name="Pin_39" type="passive"/>
+        <pin num="E40" name="Pin_40" type="passive"/>
+        <pin num="F1" name="Pin_1" type="passive"/>
+        <pin num="F2" name="Pin_2" type="passive"/>
+        <pin num="F3" name="Pin_3" type="passive"/>
+        <pin num="F4" name="Pin_4" type="passive"/>
+        <pin num="F5" name="Pin_5" type="passive"/>
+        <pin num="F6" name="Pin_6" type="passive"/>
+        <pin num="F7" name="Pin_7" type="passive"/>
+        <pin num="F8" name="Pin_8" type="passive"/>
+        <pin num="F9" name="Pin_9" type="passive"/>
+        <pin num="F10" name="Pin_10" type="passive"/>
+        <pin num="F11" name="Pin_11" type="passive"/>
+        <pin num="F12" name="Pin_12" type="passive"/>
+        <pin num="F13" name="Pin_13" type="passive"/>
+        <pin num="F14" name="Pin_14" type="passive"/>
+        <pin num="F15" name="Pin_15" type="passive"/>
+        <pin num="F16" name="Pin_16" type="passive"/>
+        <pin num="F17" name="Pin_17" type="passive"/>
+        <pin num="F18" name="Pin_18" type="passive"/>
+        <pin num="F19" name="Pin_19" type="passive"/>
+        <pin num="F20" name="Pin_20" type="passive"/>
+        <pin num="F21" name="Pin_21" type="passive"/>
+        <pin num="F22" name="Pin_22" type="passive"/>
+        <pin num="F23" name="Pin_23" type="passive"/>
+        <pin num="F24" name="Pin_24" type="passive"/>
+        <pin num="F25" name="Pin_25" type="passive"/>
+        <pin num="F26" name="Pin_26" type="passive"/>
+        <pin num="F27" name="Pin_27" type="passive"/>
+        <pin num="F28" name="Pin_28" type="passive"/>
+        <pin num="F29" name="Pin_29" type="passive"/>
+        <pin num="F30" name="Pin_30" type="passive"/>
+        <pin num="F31" name="Pin_31" type="passive"/>
+        <pin num="F32" name="Pin_32" type="passive"/>
+        <pin num="F33" name="Pin_33" type="passive"/>
+        <pin num="F34" name="Pin_34" type="passive"/>
+        <pin num="F35" name="Pin_35" type="passive"/>
+        <pin num="F36" name="Pin_36" type="passive"/>
+        <pin num="F37" name="Pin_37" type="passive"/>
+        <pin num="F38" name="Pin_38" type="passive"/>
+        <pin num="F39" name="Pin_39" type="passive"/>
+        <pin num="F40" name="Pin_40" type="passive"/>
+        <pin num="G1" name="Pin_1" type="passive"/>
+        <pin num="G2" name="Pin_2" type="passive"/>
+        <pin num="G3" name="Pin_3" type="passive"/>
+        <pin num="G4" name="Pin_4" type="passive"/>
+        <pin num="G5" name="Pin_5" type="passive"/>
+        <pin num="G6" name="Pin_6" type="passive"/>
+        <pin num="G7" name="Pin_7" type="passive"/>
+        <pin num="G8" name="Pin_8" type="passive"/>
+        <pin num="G9" name="Pin_9" type="passive"/>
+        <pin num="G10" name="Pin_10" type="passive"/>
+        <pin num="G11" name="Pin_11" type="passive"/>
+        <pin num="G12" name="Pin_12" type="passive"/>
+        <pin num="G13" name="Pin_13" type="passive"/>
+        <pin num="G14" name="Pin_14" type="passive"/>
+        <pin num="G15" name="Pin_15" type="passive"/>
+        <pin num="G16" name="Pin_16" type="passive"/>
+        <pin num="G17" name="Pin_17" type="passive"/>
+        <pin num="G18" name="Pin_18" type="passive"/>
+        <pin num="G19" name="Pin_19" type="passive"/>
+        <pin num="G20" name="Pin_20" type="passive"/>
+        <pin num="G21" name="Pin_21" type="passive"/>
+        <pin num="G22" name="Pin_22" type="passive"/>
+        <pin num="G23" name="Pin_23" type="passive"/>
+        <pin num="G24" name="Pin_24" type="passive"/>
+        <pin num="G25" name="Pin_25" type="passive"/>
+        <pin num="G26" name="Pin_26" type="passive"/>
+        <pin num="G27" name="Pin_27" type="passive"/>
+        <pin num="G28" name="Pin_28" type="passive"/>
+        <pin num="G29" name="Pin_29" type="passive"/>
+        <pin num="G30" name="Pin_30" type="passive"/>
+        <pin num="G31" name="Pin_31" type="passive"/>
+        <pin num="G32" name="Pin_32" type="passive"/>
+        <pin num="G33" name="Pin_33" type="passive"/>
+        <pin num="G34" name="Pin_34" type="passive"/>
+        <pin num="G35" name="Pin_35" type="passive"/>
+        <pin num="G36" name="Pin_36" type="passive"/>
+        <pin num="G37" name="Pin_37" type="passive"/>
+        <pin num="G38" name="Pin_38" type="passive"/>
+        <pin num="G39" name="Pin_39" type="passive"/>
+        <pin num="G40" name="Pin_40" type="passive"/>
+        <pin num="H1" name="Pin_1" type="passive"/>
+        <pin num="H2" name="Pin_2" type="passive"/>
+        <pin num="H3" name="Pin_3" type="passive"/>
+        <pin num="H4" name="Pin_4" type="passive"/>
+        <pin num="H5" name="Pin_5" type="passive"/>
+        <pin num="H6" name="Pin_6" type="passive"/>
+        <pin num="H7" name="Pin_7" type="passive"/>
+        <pin num="H8" name="Pin_8" type="passive"/>
+        <pin num="H9" name="Pin_9" type="passive"/>
+        <pin num="H10" name="Pin_10" type="passive"/>
+        <pin num="H11" name="Pin_11" type="passive"/>
+        <pin num="H12" name="Pin_12" type="passive"/>
+        <pin num="H13" name="Pin_13" type="passive"/>
+        <pin num="H14" name="Pin_14" type="passive"/>
+        <pin num="H15" name="Pin_15" type="passive"/>
+        <pin num="H16" name="Pin_16" type="passive"/>
+        <pin num="H17" name="Pin_17" type="passive"/>
+        <pin num="H18" name="Pin_18" type="passive"/>
+        <pin num="H19" name="Pin_19" type="passive"/>
+        <pin num="H20" name="Pin_20" type="passive"/>
+        <pin num="H21" name="Pin_21" type="passive"/>
+        <pin num="H22" name="Pin_22" type="passive"/>
+        <pin num="H23" name="Pin_23" type="passive"/>
+        <pin num="H24" name="Pin_24" type="passive"/>
+        <pin num="H25" name="Pin_25" type="passive"/>
+        <pin num="H26" name="Pin_26" type="passive"/>
+        <pin num="H27" name="Pin_27" type="passive"/>
+        <pin num="H28" name="Pin_28" type="passive"/>
+        <pin num="H29" name="Pin_29" type="passive"/>
+        <pin num="H30" name="Pin_30" type="passive"/>
+        <pin num="H31" name="Pin_31" type="passive"/>
+        <pin num="H32" name="Pin_32" type="passive"/>
+        <pin num="H33" name="Pin_33" type="passive"/>
+        <pin num="H34" name="Pin_34" type="passive"/>
+        <pin num="H35" name="Pin_35" type="passive"/>
+        <pin num="H36" name="Pin_36" type="passive"/>
+        <pin num="H37" name="Pin_37" type="passive"/>
+        <pin num="H38" name="Pin_38" type="passive"/>
+        <pin num="H39" name="Pin_39" type="passive"/>
+        <pin num="H40" name="Pin_40" type="passive"/>
+        <pin num="J1" name="Pin_1" type="passive"/>
+        <pin num="J2" name="Pin_2" type="passive"/>
+        <pin num="J3" name="Pin_3" type="passive"/>
+        <pin num="J4" name="Pin_4" type="passive"/>
+        <pin num="J5" name="Pin_5" type="passive"/>
+        <pin num="J6" name="Pin_6" type="passive"/>
+        <pin num="J7" name="Pin_7" type="passive"/>
+        <pin num="J8" name="Pin_8" type="passive"/>
+        <pin num="J9" name="Pin_9" type="passive"/>
+        <pin num="J10" name="Pin_10" type="passive"/>
+        <pin num="J11" name="Pin_11" type="passive"/>
+        <pin num="J12" name="Pin_12" type="passive"/>
+        <pin num="J13" name="Pin_13" type="passive"/>
+        <pin num="J14" name="Pin_14" type="passive"/>
+        <pin num="J15" name="Pin_15" type="passive"/>
+        <pin num="J16" name="Pin_16" type="passive"/>
+        <pin num="J17" name="Pin_17" type="passive"/>
+        <pin num="J18" name="Pin_18" type="passive"/>
+        <pin num="J19" name="Pin_19" type="passive"/>
+        <pin num="J20" name="Pin_20" type="passive"/>
+        <pin num="J21" name="Pin_21" type="passive"/>
+        <pin num="J22" name="Pin_22" type="passive"/>
+        <pin num="J23" name="Pin_23" type="passive"/>
+        <pin num="J24" name="Pin_24" type="passive"/>
+        <pin num="J25" name="Pin_25" type="passive"/>
+        <pin num="J26" name="Pin_26" type="passive"/>
+        <pin num="J27" name="Pin_27" type="passive"/>
+        <pin num="J28" name="Pin_28" type="passive"/>
+        <pin num="J29" name="Pin_29" type="passive"/>
+        <pin num="J30" name="Pin_30" type="passive"/>
+        <pin num="J31" name="Pin_31" type="passive"/>
+        <pin num="J32" name="Pin_32" type="passive"/>
+        <pin num="J33" name="Pin_33" type="passive"/>
+        <pin num="J34" name="Pin_34" type="passive"/>
+        <pin num="J35" name="Pin_35" type="passive"/>
+        <pin num="J36" name="Pin_36" type="passive"/>
+        <pin num="J37" name="Pin_37" type="passive"/>
+        <pin num="J38" name="Pin_38" type="passive"/>
+        <pin num="J39" name="Pin_39" type="passive"/>
+        <pin num="J40" name="Pin_40" type="passive"/>
+        <pin num="K1" name="Pin_1" type="passive"/>
+        <pin num="K2" name="Pin_2" type="passive"/>
+        <pin num="K3" name="Pin_3" type="passive"/>
+        <pin num="K4" name="Pin_4" type="passive"/>
+        <pin num="K5" name="Pin_5" type="passive"/>
+        <pin num="K6" name="Pin_6" type="passive"/>
+        <pin num="K7" name="Pin_7" type="passive"/>
+        <pin num="K8" name="Pin_8" type="passive"/>
+        <pin num="K9" name="Pin_9" type="passive"/>
+        <pin num="K10" name="Pin_10" type="passive"/>
+        <pin num="K11" name="Pin_11" type="passive"/>
+        <pin num="K12" name="Pin_12" type="passive"/>
+        <pin num="K13" name="Pin_13" type="passive"/>
+        <pin num="K14" name="Pin_14" type="passive"/>
+        <pin num="K15" name="Pin_15" type="passive"/>
+        <pin num="K16" name="Pin_16" type="passive"/>
+        <pin num="K17" name="Pin_17" type="passive"/>
+        <pin num="K18" name="Pin_18" type="passive"/>
+        <pin num="K19" name="Pin_19" type="passive"/>
+        <pin num="K20" name="Pin_20" type="passive"/>
+        <pin num="K21" name="Pin_21" type="passive"/>
+        <pin num="K22" name="Pin_22" type="passive"/>
+        <pin num="K23" name="Pin_23" type="passive"/>
+        <pin num="K24" name="Pin_24" type="passive"/>
+        <pin num="K25" name="Pin_25" type="passive"/>
+        <pin num="K26" name="Pin_26" type="passive"/>
+        <pin num="K27" name="Pin_27" type="passive"/>
+        <pin num="K28" name="Pin_28" type="passive"/>
+        <pin num="K29" name="Pin_29" type="passive"/>
+        <pin num="K30" name="Pin_30" type="passive"/>
+        <pin num="K31" name="Pin_31" type="passive"/>
+        <pin num="K32" name="Pin_32" type="passive"/>
+        <pin num="K33" name="Pin_33" type="passive"/>
+        <pin num="K34" name="Pin_34" type="passive"/>
+        <pin num="K35" name="Pin_35" type="passive"/>
+        <pin num="K36" name="Pin_36" type="passive"/>
+        <pin num="K37" name="Pin_37" type="passive"/>
+        <pin num="K38" name="Pin_38" type="passive"/>
+        <pin num="K39" name="Pin_39" type="passive"/>
+        <pin num="K40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="SK6805">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</docs>
+      <footprints>
+        <fp>LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6805</field>
+        <field name="Footprint">LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="ORBTrace" part="ORBTrace">
+      <description>ORBTrace mini </description>
+      <docs>https://orbcode.org/orbtrace-mini/</docs>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">ORBTrace</field>
+        <field name="Footprint">ORBTrace:ORBTrace</field>
+        <field name="Datasheet">https://orbcode.org/orbtrace-mini/</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="5V" type="power_out"/>
+        <pin num="3" name="3V3" type="power_out"/>
+        <pin num="4" name="5V" type="power_out"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="GND" type="power_out"/>
+        <pin num="7" name="NC" type="free"/>
+        <pin num="8" name="LED_EXT" type="output"/>
+        <pin num="9" name="JTMS" type="input"/>
+        <pin num="10" name="NC" type="free"/>
+        <pin num="11" name="JTCK" type="input"/>
+        <pin num="12" name="NC" type="free"/>
+        <pin num="13" name="JTDI" type="input"/>
+        <pin num="14" name="SDA" type="bidirectional"/>
+        <pin num="15" name="JTDO" type="output"/>
+        <pin num="16" name="SCL" type="output"/>
+        <pin num="17" name="GND" type="power_out"/>
+        <pin num="18" name="GND" type="power_out"/>
+        <pin num="19" name="P19" type="bidirectional"/>
+        <pin num="20" name="P20" type="bidirectional"/>
+        <pin num="21" name="P21" type="bidirectional"/>
+        <pin num="22" name="P22" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_out"/>
+        <pin num="24" name="GND" type="power_out"/>
+        <pin num="25" name="P25" type="bidirectional"/>
+        <pin num="26" name="P26" type="bidirectional"/>
+        <pin num="27" name="P27" type="bidirectional"/>
+        <pin num="28" name="P28" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_out"/>
+        <pin num="30" name="GND" type="power_out"/>
+        <pin num="31" name="P31" type="bidirectional"/>
+        <pin num="32" name="P32" type="bidirectional"/>
+        <pin num="33" name="P33" type="bidirectional"/>
+        <pin num="34" name="P34" type="bidirectional"/>
+        <pin num="35" name="GND" type="power_out"/>
+        <pin num="36" name="GND" type="power_out"/>
+        <pin num="37" name="P37" type="bidirectional"/>
+        <pin num="38" name="P38" type="bidirectional"/>
+        <pin num="39" name="P39" type="bidirectional"/>
+        <pin num="40" name="P40" type="bidirectional"/>
+        <pin num="41" name="GND" type="power_out"/>
+        <pin num="42" name="GND" type="power_out"/>
+        <pin num="43" name="P43" type="bidirectional"/>
+        <pin num="44" name="P44" type="bidirectional"/>
+        <pin num="45" name="P45" type="bidirectional"/>
+        <pin num="46" name="P46" type="bidirectional"/>
+        <pin num="47" name="GND" type="power_out"/>
+        <pin num="48" name="GND" type="power_out"/>
+        <pin num="49" name="P49" type="bidirectional"/>
+        <pin num="50" name="P50" type="bidirectional"/>
+        <pin num="51" name="P51" type="bidirectional"/>
+        <pin num="52" name="P52" type="bidirectional"/>
+        <pin num="53" name="GND" type="power_out"/>
+        <pin num="54" name="GND" type="power_out"/>
+        <pin num="55" name="P55" type="bidirectional"/>
+        <pin num="56" name="P56" type="bidirectional"/>
+        <pin num="57" name="P57" type="bidirectional"/>
+        <pin num="58" name="P58" type="bidirectional"/>
+        <pin num="59" name="GND" type="power_out"/>
+        <pin num="60" name="GND" type="power_out"/>
+        <pin num="61" name="P61" type="bidirectional"/>
+        <pin num="62" name="P62" type="bidirectional"/>
+        <pin num="63" name="P63" type="bidirectional"/>
+        <pin num="64" name="P64" type="bidirectional"/>
+        <pin num="65" name="GND" type="power_out"/>
+        <pin num="66" name="GND" type="power_out"/>
+        <pin num="67" name="3V3" type="power_out"/>
+        <pin num="68" name="5V" type="power_out"/>
+        <pin num="69" name="3V3" type="power_out"/>
+        <pin num="70" name="5V" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Users\jl388\Documents\KiCad\Official Library\kicad-symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Users\jl388\Documents\KiCad\Official Library\kicad-symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\jl388\Documents\KiCad\Official Library\kicad-symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Users\jl388\Documents\KiCad\Official Library\kicad-symbols/LED.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Users\jl388\Documents\KiCad\Official Library\kicad-symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="ORBTrace">
+      <uri>C:\Users\jl388\Documents\KiCAD\User Library\kicad-symbols/ORBTrace.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Users\jl388\Documents\KiCad\Official Library\kicad-symbols/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J1" pin="C39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J1" pin="D36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J1" pin="D38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J1" pin="D40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="A1" pin="2" pinfunction="5V" pintype="power_out"/>
+      <node ref="A1" pin="4" pinfunction="5V" pintype="power_out"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="/CFG1">
+      <node ref="A1" pin="61" pinfunction="P61" pintype="bidirectional"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="8" pintype="passive"/>
+    </net>
+    <net code="4" name="/CFG2">
+      <node ref="A1" pin="63" pinfunction="P63" pintype="bidirectional"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="7" pintype="passive"/>
+    </net>
+    <net code="5" name="/CFG3">
+      <node ref="J1" pin="C22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="6" pintype="passive"/>
+    </net>
+    <net code="6" name="/CFG4">
+      <node ref="J1" pin="C23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="5" pintype="passive"/>
+    </net>
+    <net code="7" name="/LA00_N_CC">
+      <node ref="A1" pin="11" pinfunction="JTCK" pintype="input"/>
+      <node ref="J1" pin="G7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="8" name="/LA00_P_CC">
+      <node ref="A1" pin="9" pinfunction="JTMS" pintype="input"/>
+      <node ref="J1" pin="G6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="9" name="/LA01_N_CC">
+      <node ref="A1" pin="16" pinfunction="SCL" pintype="output"/>
+      <node ref="J1" pin="D9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="10" name="/LA01_P_CC">
+      <node ref="A1" pin="14" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J1" pin="D8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="11" name="/LA02_N">
+      <node ref="A1" pin="22" pinfunction="P22" pintype="bidirectional"/>
+      <node ref="J1" pin="H8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="12" name="/LA02_P">
+      <node ref="A1" pin="20" pinfunction="P20" pintype="bidirectional"/>
+      <node ref="J1" pin="H7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="13" name="/LA03_N">
+      <node ref="A1" pin="21" pinfunction="P21" pintype="bidirectional"/>
+      <node ref="J1" pin="G10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="14" name="/LA03_P">
+      <node ref="A1" pin="19" pinfunction="P19" pintype="bidirectional"/>
+      <node ref="J1" pin="G9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="15" name="/LA04_N">
+      <node ref="J1" pin="H11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="/LA04_P">
+      <node ref="J1" pin="H10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="/LA05_N">
+      <node ref="J1" pin="D12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="/LA05_P">
+      <node ref="J1" pin="D11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="/LA06_N">
+      <node ref="A1" pin="15" pinfunction="JTDO" pintype="output"/>
+      <node ref="J1" pin="C11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="20" name="/LA06_P">
+      <node ref="A1" pin="13" pinfunction="JTDI" pintype="input"/>
+      <node ref="J1" pin="C10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="21" name="/LA07_N">
+      <node ref="J1" pin="H14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="/LA07_P">
+      <node ref="J1" pin="H13" pinfunction="Pin_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="/LA08_N">
+      <node ref="A1" pin="33" pinfunction="P33" pintype="bidirectional"/>
+      <node ref="J1" pin="G13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="24" name="/LA08_P">
+      <node ref="A1" pin="31" pinfunction="P31" pintype="bidirectional"/>
+      <node ref="J1" pin="G12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="25" name="/LA09_N">
+      <node ref="J1" pin="D15" pinfunction="Pin_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="/LA09_P">
+      <node ref="J1" pin="D14" pinfunction="Pin_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="/LA10_N">
+      <node ref="A1" pin="27" pinfunction="P27" pintype="bidirectional"/>
+      <node ref="J1" pin="C15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="28" name="/LA10_P">
+      <node ref="A1" pin="25" pinfunction="P25" pintype="bidirectional"/>
+      <node ref="J1" pin="C14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="29" name="/LA11_N">
+      <node ref="A1" pin="40" pinfunction="P40" pintype="bidirectional"/>
+      <node ref="J1" pin="H17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="30" name="/LA11_P">
+      <node ref="A1" pin="38" pinfunction="P38" pintype="bidirectional"/>
+      <node ref="J1" pin="H16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="31" name="/LA12_N">
+      <node ref="A1" pin="39" pinfunction="P39" pintype="bidirectional"/>
+      <node ref="J1" pin="G16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="32" name="/LA12_P">
+      <node ref="A1" pin="37" pinfunction="P37" pintype="bidirectional"/>
+      <node ref="J1" pin="G15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="33" name="/LA13_N">
+      <node ref="J1" pin="D18" pinfunction="Pin_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="/LA13_P">
+      <node ref="J1" pin="D17" pinfunction="Pin_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="/LA14_N">
+      <node ref="J1" pin="C19" pinfunction="Pin_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="/LA14_P">
+      <node ref="J1" pin="C18" pinfunction="Pin_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="/LA15_N">
+      <node ref="A1" pin="46" pinfunction="P46" pintype="bidirectional"/>
+      <node ref="J1" pin="H20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="38" name="/LA15_P">
+      <node ref="A1" pin="44" pinfunction="P44" pintype="bidirectional"/>
+      <node ref="J1" pin="H19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="39" name="/LA16_N">
+      <node ref="A1" pin="45" pinfunction="P45" pintype="bidirectional"/>
+      <node ref="J1" pin="G19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="40" name="/LA16_P">
+      <node ref="A1" pin="43" pinfunction="P43" pintype="bidirectional"/>
+      <node ref="J1" pin="G18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="41" name="/LA17_N_CC">
+      <node ref="J1" pin="D21" pinfunction="Pin_21" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="/LA17_P_CC">
+      <node ref="J1" pin="D20" pinfunction="Pin_20" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="/LA19_N">
+      <node ref="A1" pin="52" pinfunction="P52" pintype="bidirectional"/>
+      <node ref="J1" pin="H23" pinfunction="Pin_23" pintype="passive"/>
+    </net>
+    <net code="44" name="/LA19_P">
+      <node ref="A1" pin="50" pinfunction="P50" pintype="bidirectional"/>
+      <node ref="J1" pin="H22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="45" name="/LA20_N">
+      <node ref="A1" pin="51" pinfunction="P51" pintype="bidirectional"/>
+      <node ref="J1" pin="G22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="46" name="/LA20_P">
+      <node ref="A1" pin="49" pinfunction="P49" pintype="bidirectional"/>
+      <node ref="J1" pin="G21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="47" name="/LA21_N">
+      <node ref="A1" pin="58" pinfunction="P58" pintype="bidirectional"/>
+      <node ref="J1" pin="H26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="48" name="/LA21_P">
+      <node ref="A1" pin="56" pinfunction="P56" pintype="bidirectional"/>
+      <node ref="J1" pin="H25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="49" name="/LA22_N">
+      <node ref="A1" pin="57" pinfunction="P57" pintype="bidirectional"/>
+      <node ref="J1" pin="G25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="50" name="/LA22_P">
+      <node ref="A1" pin="55" pinfunction="P55" pintype="bidirectional"/>
+      <node ref="J1" pin="G24" pinfunction="Pin_24" pintype="passive"/>
+    </net>
+    <net code="51" name="/LA23_N">
+      <node ref="J1" pin="D24" pinfunction="Pin_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="/LA23_P">
+      <node ref="J1" pin="D23" pinfunction="Pin_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="/LA24_N">
+      <node ref="J1" pin="H29" pinfunction="Pin_29" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="/LA24_P">
+      <node ref="J1" pin="H28" pinfunction="Pin_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="/LA25_N">
+      <node ref="J1" pin="G28" pinfunction="Pin_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="/LA25_P">
+      <node ref="J1" pin="G27" pinfunction="Pin_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="/LA26_N">
+      <node ref="J1" pin="D27" pinfunction="Pin_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="/LA26_P">
+      <node ref="J1" pin="D26" pinfunction="Pin_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="/LA28_N">
+      <node ref="J1" pin="H32" pinfunction="Pin_32" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="/LA28_P">
+      <node ref="J1" pin="H31" pinfunction="Pin_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="/LA29_N">
+      <node ref="J1" pin="G31" pinfunction="Pin_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="/LA29_P">
+      <node ref="J1" pin="G30" pinfunction="Pin_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="/LA30_N">
+      <node ref="J1" pin="H35" pinfunction="Pin_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="/LA30_P">
+      <node ref="J1" pin="H34" pinfunction="Pin_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="/LA31_N">
+      <node ref="J1" pin="G34" pinfunction="Pin_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="/LA31_P">
+      <node ref="J1" pin="G33" pinfunction="Pin_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="/LA32_N">
+      <node ref="J1" pin="H38" pinfunction="Pin_38" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="/LA32_P">
+      <node ref="J1" pin="H37" pinfunction="Pin_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="/LA33_N">
+      <node ref="J1" pin="G37" pinfunction="Pin_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="/LA33_P">
+      <node ref="J1" pin="G36" pinfunction="Pin_36" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="/PB1">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="C27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="/PB2">
+      <node ref="A1" pin="64" pinfunction="P64" pintype="bidirectional"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="/PB3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="C26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="/PB4">
+      <node ref="A1" pin="62" pinfunction="P62" pintype="bidirectional"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="75" name="GND">
+      <node ref="A1" pin="17" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="18" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="23" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="24" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="29" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="30" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="35" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="36" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="41" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="42" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="47" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="48" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="5" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="53" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="54" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="59" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="6" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="60" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="65" pinfunction="GND" pintype="power_out"/>
+      <node ref="A1" pin="66" pinfunction="GND" pintype="power_out"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J1" pin="C1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="C12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J1" pin="C13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="C16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J1" pin="C17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J1" pin="C20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J1" pin="C21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J1" pin="C24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J1" pin="C25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J1" pin="C28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J1" pin="C29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J1" pin="C32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J1" pin="C33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J1" pin="C36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J1" pin="C38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J1" pin="C4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="C40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J1" pin="C5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="C8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="C9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J1" pin="D10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="J1" pin="D13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="D16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="J1" pin="D19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J1" pin="D2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="D22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="J1" pin="D25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="J1" pin="D28" pinfunction="Pin_28" pintype="passive"/>
+      <node ref="J1" pin="D3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="D37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="J1" pin="D39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J1" pin="D6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="D7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="G1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="G11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="G14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J1" pin="G17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J1" pin="G20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="J1" pin="G23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J1" pin="G26" pinfunction="Pin_26" pintype="passive"/>
+      <node ref="J1" pin="G29" pinfunction="Pin_29" pintype="passive"/>
+      <node ref="J1" pin="G32" pinfunction="Pin_32" pintype="passive"/>
+      <node ref="J1" pin="G35" pinfunction="Pin_35" pintype="passive"/>
+      <node ref="J1" pin="G38" pinfunction="Pin_38" pintype="passive"/>
+      <node ref="J1" pin="G4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="G40" pinfunction="Pin_40" pintype="passive"/>
+      <node ref="J1" pin="G5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="G8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J1" pin="H12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="J1" pin="H15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="H18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J1" pin="H2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="H21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="J1" pin="H24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="J1" pin="H27" pinfunction="Pin_27" pintype="passive"/>
+      <node ref="J1" pin="H3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="H30" pinfunction="Pin_30" pintype="passive"/>
+      <node ref="J1" pin="H33" pinfunction="Pin_33" pintype="passive"/>
+      <node ref="J1" pin="H36" pinfunction="Pin_36" pintype="passive"/>
+      <node ref="J1" pin="H39" pinfunction="Pin_39" pintype="passive"/>
+      <node ref="J1" pin="H6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J1" pin="H9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="SW5" pin="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pintype="passive"/>
+      <node ref="SW5" pin="3" pintype="passive"/>
+      <node ref="SW5" pin="4" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="LED_EXT" pintype="output"/>
+      <node ref="D1" pin="3" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="77" name="Net-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="P26" pintype="bidirectional"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="P28" pintype="bidirectional"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(A1-Pad32)">
+      <node ref="A1" pin="32" pinfunction="P32" pintype="bidirectional"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(A1-Pad34)">
+      <node ref="A1" pin="34" pinfunction="P34" pintype="bidirectional"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(A1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(A1-Pad7)">
+      <node ref="A1" pin="7" pinfunction="NC" pintype="free"/>
+    </net>
+    <net code="88" name="unconnected-(A1-Pad10)">
+      <node ref="A1" pin="10" pinfunction="NC" pintype="free"/>
+    </net>
+    <net code="89" name="unconnected-(A1-Pad12)">
+      <node ref="A1" pin="12" pinfunction="NC" pintype="free"/>
+    </net>
+    <net code="90" name="unconnected-(A1-Pad67)">
+      <node ref="A1" pin="67" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(A1-Pad68)">
+      <node ref="A1" pin="68" pinfunction="5V" pintype="power_out+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(A1-Pad69)">
+      <node ref="A1" pin="69" pinfunction="3V3" pintype="power_out+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(A1-Pad70)">
+      <node ref="A1" pin="70" pinfunction="5V" pintype="power_out+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J1-PadC2)">
+      <node ref="J1" pin="C2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J1-PadC3)">
+      <node ref="J1" pin="C3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J1-PadC6)">
+      <node ref="J1" pin="C6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J1-PadC7)">
+      <node ref="J1" pin="C7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J1-PadC30)">
+      <node ref="J1" pin="C30" pinfunction="Pin_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J1-PadC31)">
+      <node ref="J1" pin="C31" pinfunction="Pin_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J1-PadC34)">
+      <node ref="J1" pin="C34" pinfunction="Pin_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J1-PadC35)">
+      <node ref="J1" pin="C35" pinfunction="Pin_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J1-PadC37)">
+      <node ref="J1" pin="C37" pinfunction="Pin_37" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J1-PadD1)">
+      <node ref="J1" pin="D1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J1-PadD4)">
+      <node ref="J1" pin="D4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J1-PadD5)">
+      <node ref="J1" pin="D5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(J1-PadD29)">
+      <node ref="J1" pin="D29" pinfunction="Pin_29" pintype="passive+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(J1-PadD30)">
+      <node ref="J1" pin="D30" pinfunction="Pin_30" pintype="passive+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(J1-PadD31)">
+      <node ref="J1" pin="D31" pinfunction="Pin_31" pintype="passive+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(J1-PadD32)">
+      <node ref="J1" pin="D32" pinfunction="Pin_32" pintype="passive+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(J1-PadD33)">
+      <node ref="J1" pin="D33" pinfunction="Pin_33" pintype="passive+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(J1-PadD34)">
+      <node ref="J1" pin="D34" pinfunction="Pin_34" pintype="passive+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(J1-PadD35)">
+      <node ref="J1" pin="D35" pinfunction="Pin_35" pintype="passive+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(J1-PadG2)">
+      <node ref="J1" pin="G2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(J1-PadG3)">
+      <node ref="J1" pin="G3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(J1-PadG39)">
+      <node ref="J1" pin="G39" pinfunction="Pin_39" pintype="passive+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(J1-PadH1)">
+      <node ref="J1" pin="H1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(J1-PadH4)">
+      <node ref="J1" pin="H4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(J1-PadH5)">
+      <node ref="J1" pin="H5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(J1-PadH40)">
+      <node ref="J1" pin="H40" pinfunction="Pin_40" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
